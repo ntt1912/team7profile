@@ -25,7 +25,7 @@
     width: 100%;
     text-align: center;
     font-size: 4em;
-    color: black;
+    color: #8d4aa5;
   }
   h2{
     width: 100%;
@@ -39,7 +39,7 @@
   }
 
   .card {
-    box-shadow: 0 0 2.5em rgba(25, 0, 58, 0.1);
+    box-shadow: 0 0 2.5em #8d4aa5;
     padding: 3.5em 1em;
     border-radius: 0.6em;
     margin: 0.5em 2em;
@@ -59,6 +59,8 @@
   .card img {
     width: 100%;
     border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
   }
   .card h3 {
     font-weight: 500;
